@@ -1,0 +1,204 @@
+@media screen and (min-width: 768px){
+    .custom-container {
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 768px){
+    .custom-container {
+        padding-top: 30px;
+    }
+}
+.login-box {
+    box-shadow: 
+             0 0  0 1px rgb(255,255,255),
+             0.1em 0.1em 1em rgba(0,0,0,0.3);
+}
+.custom-body {
+    padding: 0px;
+}
+.header-label-box {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+.header-label-big-thin {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+}
+.header-label-big-bold {
+    font-style: italic;
+    font-weight: 900;
+    font-size: 18px;
+}
+.header-sub-label {
+    font-size: 11px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: -7px;
+    position: absolute;
+    top: 56px;
+}
+.form-signin {
+    margin-top: 80px;
+    width: 75%;
+    margin-left: 12.5%;
+}
+.form-label-group {
+    margin-bottom: 20px;
+}
+
+.social-button-box {
+    display: flex;
+    justify-content: space-between;    
+    margin-bottom: 44px;
+    margin-top: 44px;
+}
+.social-button {
+    width: 50%;
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 10px;      
+    font-weight: bold;
+    cursor: pointer;
+}
+.social-button:hover{
+    background: #000000;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+    .social-font {
+        font-size: 14px;
+    }
+    .social-icon {
+        margin-right: 20px;  
+    }
+    .option-font {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .form-check {
+        margin-top: 8px;
+    }
+    .account-text {
+        font-size: 14px;
+        color: #000000;
+        font-weight: 500;
+        margin-left: 28px;
+    }
+    .signup {
+        font-size: 15px;
+        color: #000000;
+        font-weight: bold;
+    }
+    .custom-login-btn {
+        background: #000000;
+        padding: 10px 30px;
+        border-radius: 0px;
+    }
+    .slider-height {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+    }
+    .slider-height-bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+    .slider-height-item {
+        width: 1px;
+        height: 32px;
+        border: 2px solid #000000;
+    }
+    .slider-width {
+        display: flex;
+        justify-content: space-between;
+        width: calc(100% + 242px);
+        margin-left: -121px;
+    }
+    .slider-width-item {
+        width: 32px;
+        height: 1px;
+        border: 2px solid #000000;
+    }
+}
+@media screen and (max-width: 768px) {
+    .social-font {
+        font-size: 9px;
+    }
+    .social-icon {
+        margin-right: 7px;  
+    }
+    .option-font {
+        font-size: 13px;
+    }
+    .form-check {
+        margin-top: 4px;
+    }
+    .form-check-input {
+        margin-top: 7px;
+    }
+    .account-text {
+        font-size: 11px;
+        color: #000000;
+        font-weight: 500;
+        margin-left: 12px;
+    }
+    .signup {
+        font-size: 12px;
+        color: #000000;
+        font-weight: bold;
+    }
+    .custom-login-btn {
+        background: #000000;
+        padding: 5px 10px;
+        font-size: 12px;
+    }    
+}
+.form-bottom-item-box {
+    display: flex;
+    justify-content: space-between;
+}
+.form-last-bottom-box {
+    display: flex;
+    justify-content: space-between;
+}
+/* .social-icon-text {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+} */
+.custom-input {
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0px;
+    padding-left: 0px;
+}
+
+.form-control:focus {
+    box-shadow:none
+}
+.forgot-password {
+    color: #000000;
+}
+
+.signup:focus {
+    box-shadow:none
+}
+.howtotext {
+    font-size: 11px;
+    font-weight: bold;
+    color: gray;
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+/* .form-check-input:checked~.custom-control-label::before{
+    background-color:black;
+}
+.form-check-input:checked~.custom-control-label::after{
+    background-color:black;
+} */
